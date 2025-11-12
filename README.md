@@ -117,3 +117,35 @@ propatradex/
 ├── README.md
 └── Move.toml
 ```
+
+## Testing
+
+### Manual Testing Workflow
+
+1. **Register as a user** with your KYC details
+2. **List a property** (sale or rent) with images and details
+3. **Switch accounts** and browse the marketplace
+4. **Deposit funds** to initiate a purchase/rental
+5. **Confirm as seller** to release the property
+6. **Confirm as buyer** to release funds
+7. **Verify** ownership transfer and receipt NFTs
+
+## Contributing
+
+We're building transparent real estate with community at the core. If you're a:
+
+- Web3 developer (Move, React, smart contracts)
+- Real estate tech enthusiast
+- Designer, tester, or user
+
+Feel free to contribute or join the discussion.
+
+**GitHub Repository:** [GitHub](https://github.com/freedteck/propatrade)
+
+## License
+
+This project is licensed under **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built on IOTA Blockchain – Making real estate accessible and transparent for everyone.**
