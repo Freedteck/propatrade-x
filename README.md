@@ -39,3 +39,81 @@ All transparent, secure, and instant—no middlemen, no delays.
    - Tracks rental period (for rentals)
    - Mints receipt NFTs
 6. **Disputes resolved** by platform admins if needed.
+
+## User Types
+
+- **Sellers/Landlords**: List properties, confirm delivery, receive payments.
+- **Buyers/Renters**: Browse listings, deposit funds, confirm receipt.
+- **Admins**: Resolve disputes, ensure platform integrity.
+
+Each user has a dashboard accessible after connecting their IOTA wallet.
+
+## Tech Stack
+
+| Layer                  | Technology                                  |
+| ---------------------- | ------------------------------------------- |
+| **Blockchain**         | IOTA blockchain (smart contracts in Move)   |
+| **Frontend**           | React.js, TypeScript, TailwindCSS           |
+| **Wallet Integration** | IOTA Wallet, @iota/dapp-kit                 |
+| **Storage**            | IPFS via Pinata (documents, images, videos) |
+| **State Management**   | @tanstack/react-query                       |
+| **Build Tool**         | Vite                                        |
+
+## Getting Started
+
+**Prerequisites:**
+
+- [Node.js](https://nodejs.org/) (v18+)
+- [IOTA CLI](https://docs.iota.org/developer/getting-started/install-iota)
+- [IOTA Wallet Extension](https://chromewebstore.google.com/detail/iota-wallet/...)
+- [Pinata Account](https://pinata.cloud/) (optional, for IPFS)
+
+**Installation & Running:**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/freedteck/propatrade.git
+   cd propatradex
+   ```
+
+2. **Install frontend dependencies:**
+
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env` file in the `frontend` directory:
+
+   ```env
+   VITE_PINATA_JWT=<YOUR_PINATA_JWT>
+   VITE_PINATA_GATEWAY=<YOUR_PINATA_GATEWAY_URL>
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open `http://localhost:5173` in your browser.
+
+## Project Structure
+
+```
+propatradex/
+├── contracts/
+│   └── sources/
+│       └── propatradex.move       # Smart contract
+├── frontend/
+│   ├── src/
+│   │   ├── components/            # React components
+│   │   ├── pages/                 # Application pages
+│   │   └── App.tsx                # Main app
+│   └── package.json
+├── README.md
+└── Move.toml
+```
