@@ -1,0 +1,3 @@
+# Project Description
+
+PropaTradex is a decentralized real estate marketplace built on the IOTA blockchain, enabling secure property sales and rentals without intermediaries. It features escrow-protected transactions, automatic ownership transfers, IPFS document storage, automated rental management, fair dispute resolution, and immutable NFT-based receipts. Leveraging Move smart contracts, React frontend, and IOTA wallet integration, it provides trustless, feeless transactions that revolutionize traditional real estate processes.
