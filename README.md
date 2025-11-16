@@ -1,10 +1,10 @@
-# PropaTradex
+# PropaTrade-x
 
 **Decentralized real estate marketplace with secure escrow and transparent transactions on IOTA blockchain.**
 
 ## Overview
 
-PropaTradex is a blockchain-powered real estate platform that enables secure property sales and rentals without intermediaries. Built on **IOTA blockchain**, it provides trustless escrow services, automated ownership transfers, and fair dispute resolution—making real estate transactions transparent and accessible to everyone.
+PropaTrade-x is a blockchain-powered real estate platform that enables secure property sales and rentals without intermediaries. Built on **IOTA blockchain**, it provides trustless escrow services, automated ownership transfers, and fair dispute resolution—making real estate transactions transparent and accessible to everyone.
 
 ## Core Features
 
@@ -19,7 +19,7 @@ PropaTradex is a blockchain-powered real estate platform that enables secure pro
 
 ## Real Use Case: Alice Buys a Home
 
-Alice finds a property listed by Bob on PropaTradex. She deposits the purchase amount into escrow. Bob confirms he's ready to transfer the property. Alice inspects and confirms satisfaction. The smart contract automatically:
+Alice finds a property listed by Bob on PropaTrade-x. She deposits the purchase amount into escrow. Bob confirms he's ready to transfer the property. Alice inspects and confirms satisfaction. The smart contract automatically:
 
 - Releases payment to Bob
 - Transfers property ownership to Alice
@@ -73,8 +73,8 @@ Each user has a dashboard accessible after connecting their IOTA wallet.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/freedteck/propatrade.git
-   cd propatradex
+   git clone https://github.com/freedteck/propatrade-x.git
+   cd propatrade-x
    ```
 
 2. **Install frontend dependencies:**
@@ -140,7 +140,7 @@ We're building transparent real estate with community at the core. If you're a:
 
 Feel free to contribute or join the discussion.
 
-**GitHub Repository:** [GitHub](https://github.com/freedteck/propatrade)
+**GitHub Repository:** [GitHub](https://github.com/freedteck/propatrade-x)
 
 ## License
 
